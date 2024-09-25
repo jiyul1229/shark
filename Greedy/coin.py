@@ -25,3 +25,15 @@ for coin in coins:
         if K <= 0:
             break 
 print(answer) 
+
+#다른 사람 숏코딩
+a,*b=open(c:=0);k=int(a[2:])
+while b:*b,p=b;p=int(p);c+=k//p;k%=p
+print(c)
+
+#또 다른 숏코딩
+p,*o=open(0)
+k=int(p[2:])
+c=0
+for i in map(int,o[::-1]):c+=k//i;k=k%i
+print(c)
